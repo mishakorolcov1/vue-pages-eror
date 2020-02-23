@@ -24,7 +24,8 @@
 
 
             const gets = await res.json();
-            this.gets = gets;
+            this.gets = gets.results;
+
 
         }
     };
